@@ -21,7 +21,7 @@ sap.ui.define([
             $.ajax({
                 url: "https://api.booking.oslo.kommune.no/api/schedule?bookableAssetIds=c641abdd-6352-477b-8d34-d5b299922330&fromInclusive=2024-09-30&toInclusive=2024-10-06",
                 method: "GET",
-                success: function(response) {
+                success: function(response) { 
                   console.log(response);
                 },
                 error: function(error) {
